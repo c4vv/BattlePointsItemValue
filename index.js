@@ -45,6 +45,7 @@ function fetchPrice(item) {
       return response.json(); // Parse the JSON response
     })
     .then(data => {
+			console.log(data);
       return { ...item, price: data.data.pop().y }; // Add price to the item object
     });
 }
