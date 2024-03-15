@@ -1,12 +1,9 @@
-# PokeMMO Riches Charm Calculator
+# BP Item Value Converter
 
-**ACCESS THE WEBSITE [HERE](https://c4vv.github.io/CharmCalc/)**
+**ACCESS THE WEBSITE [HERE](https://c4vv.github.io/BattlePointsItemValue/)**
 
-A calculator to determine the value add of a Riches Charm or Amulet Coin based on various Gym Leaders, Trainers, and Elite Four.
+A converter to determine the most profitable BP items.
 
 ### TODO
 * [x] Add styles
-* [x] Float the calculator to be visible at all times
-* [ ] Collapsible sections
-* [ ] Add [trainers](https://forums.pokemmo.com/index.php?/topic/148798-1-hour-trainer-rerun-guide/)
-* [x] Add E4
+* [ ] idklol
