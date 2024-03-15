@@ -33,7 +33,7 @@ const items = [
 
 
 items.forEach((item) => {
-	item.priceApiUrl = 'https://pokemmoprices.com/api/v2/items/graph/min/'+item.id+'/0';
+	item.priceApiUrl = 'https://pokemmoprices.com/api/v2/items/graph/min/'+item.id+'/1';
 });
 
 function fetchPrice(item) {
@@ -45,7 +45,7 @@ function fetchPrice(item) {
       return response.json(); // Parse the JSON response
     })
     .then(data => {
-			console.log(data);
+			// console.log(data);
       return { ...item, price: data.data.pop().y }; // Add price to the item object
     });
 }
