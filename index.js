@@ -124,6 +124,7 @@ function getItemPrices(items){
 function loadTable(items) {
 	document.getElementById("loading").style.display='none';
 	items.forEach(item => {
+		item.price = priceLessGTLFee(item.price);
 		item.ratio = Math.round(item.price/item.bp*100)/100;
 		item.price = currencyFormat(item.price);
 	});
