@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Compare the value of different BP items based on their recent market value.">
+	<link rel="icon" href="./bp.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css">
+	<title>PokeMMO Battle Point Item Value Converter</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<h1>BP Item Value Converter</h1>
+			<p>Takes awhile to load. Be patient. If you message me that it is broken, and it is not, I will be very upset. Prices accounts for GTL fee when selling. They are pulled from PokeMMO Hub which updates every 6 hours, so use this as a reference, but check the current GTL prices before listing.</p>
+		</div>
+		<div class="row">
+			<table id="items-table">
+				<thead>
+				 <tr>
+					 <th>Name</th>
+					 <th>BP</th>
+					 <th>Price</th>
+					 <th>Ratio</th>
+				 </tr>
+			 </thead>
+			 <tbody>
+				 <tr>
+				 	<td colspan="4" class="text-center"><div class="spinner-border" id="loading" role="status" style="margin-top:100px;"></div></td>
+				</tr>
+			 </tbody>
+			</table>
+		</div>
+		<div class="row">
+			<div class="col-12 text-center mt-50">
+
+			</div>
+		</div>
+	</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+@media screen and (min-width: 600px) {
+	.float-child {
+		padding: 20px;
+	}
+	#calc {
+		position: fixed;
+		width:326px;
+	}
+	#data {
+		float: right;
+		width:100%;
+		padding-left:326px;
+	}
+}
+body, tr, input {
+	background-color: #1d2030;
+	color: #dadce6;
+}
+h2, h3{
+	margin-top:.5em !important;
+}
+h3 {
+	font-size:1.25em;
+}
+h1, h2 {
+	font-weight: bold;
+}
+label {
+	display:block !important;
+}
+tr {
+	margin-top:.5em;
+}
+table tr:nth-child(even) {
+	background-color: #303447;
+	color: #dadce6;
+}
+.form-check-input {
+	height:1.5em;
+	width:1.5em;
+	margin-right:1em;
+}
+.form-control {
+	max-width:200px;
+}
+#charm-form {
+	margin-bottom:1em;
+}
+#link {
+	max-width: none;
+}
+#donator {
+	width:2.5em;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
