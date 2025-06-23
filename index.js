@@ -40,7 +40,7 @@ const items = [
 	new Item("Glowing Moss", "1521", "100"),
 	new Item("Throat Spray", "1514", "100"),
 	new Item("Snowball", "1520", "100")
-]
+];
 
 getItemPrices(items);
 
