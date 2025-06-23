@@ -36,11 +36,10 @@ const items = [
 	new Item("Safety Goggles", 1510, 4800),
 	new Item("Protective Pads", 1516, 4800),
 	new Item("Type Policy", 1511, 100),
-	new Item("Room Service", 1517, 100)
-
-	// new Item("Glowing Moss", ???, 100),
-	// new Item("Throat Spray", ???, 100),
-	// new Item("Snowball", ???, 100),
+	new Item("Room Service", 1517, 100),
+	new Item("Glowing Moss", 1521, 100),
+	new Item("Throat Spray", 1514, 100),
+	new Item("Snowball", 1520, 100),
 ];
 
 getItemPrices(items);
