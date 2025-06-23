@@ -28,7 +28,19 @@ const items = [
 	new Item("Choice Scarf", "5287", "9800"),
 	new Item("Choice Specs", "5297", "9800"),
 	new Item("Eviolite", "5538", "9800"),
-	new Item("Assualt Gear", "1423", "9800")
+	new Item("Assualt Gear", "1423", "9800"),
+	new Item("Reinforced Boots", 1426, 9800),
+	new Item("Punching Gloves", 1506, 6400),
+	new Item("Covert Mantle", 1508, 6400),
+	new Item("Loaded Dice", 1509, 4800),
+	new Item("Safety Goggles", 1510, 4800),
+	new Item("Protective Pads", 1516, 4800),
+	new Item("Type Policy", 1511, 100),
+	new Item("Room Service", 1517, 100)
+
+	// new Item("Glowing Moss", ???, 100),
+	// new Item("Throat Spray", ???, 100),
+	// new Item("Snowball", ???, 100),
 ];
 
 getItemPrices(items);
